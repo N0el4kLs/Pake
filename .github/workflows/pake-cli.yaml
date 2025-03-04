@@ -40,7 +40,7 @@ on:
         default: false
       multi_arch:
         description: 'MultiArch, MacOS only, Optional'
-        required: false
+        required: true
         type: boolean
         default: false
       targets:
